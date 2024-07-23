@@ -2,6 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import MyContact from "./myContact";
 import ToDoLists from "./toDoLists";
 
+
 export const meta: MetaFunction = () => {
   return [
     { title: "Ohm Remix App" },
@@ -53,6 +54,7 @@ export default function Index() {
         </ul>
         <MyContact />
         <ToDoLists />
+       
     </div>
   );
 }

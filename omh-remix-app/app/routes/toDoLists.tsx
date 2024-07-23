@@ -108,7 +108,7 @@ const enrItem = todos.filter(subject =>
 );
 
     const items = enrItem.map(item =>
-      <Item id={item.id} title={item.title} chk={item.checked} desc={item.description} cov={item.cover} ico={item.icon} enr={item.enrollment}/>
+      <Item key={item.id} id={item.id} title={item.title} chk={item.checked} desc={item.description} cov={item.cover} ico={item.icon} enr={item.enrollment}/>
     );
     return (
     <div className="p-5 bg-green-200">
