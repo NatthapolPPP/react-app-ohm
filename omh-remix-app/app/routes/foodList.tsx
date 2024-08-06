@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { foodsList } from "./data";
+import { foodsList } from "./Mydata";
 
 export default function favorite() {
     const [index,setIndex] = useState(0);
